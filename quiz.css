@@ -1,3 +1,7 @@
+/*************
+    FLEX
+*************/
+
 .row_top {
   display: flex;
 }
@@ -6,7 +10,54 @@
   display: flex;
 }
 
+
+/*************
+    CARDS
+*************/
+
 .product_card {
   width: 30%;
-  margin: 0 auto;
+  margin: 7px auto;
+  border: 1px solid lightblue;
+
+}
+
+.product_name {
+  border-bottom: 1px dotted lightgrey;
+  text-align: center;
+}
+
+.product_img {
+  text-align: center;
+}
+
+.product_description {
+  text-align: justify;
+  padding: 0 8px;
+}
+
+.product_availability {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.product_specifications,
+.product_pricing {
+  font-size: 1.3em;
+  font-weight: 800;
+  margin-left: 3px;
+}
+
+.product_validity_footer {
+  margin-left: 4px;
+}
+
+.product_size,
+.product_weight,
+.product_pricing,
+.product_qty_pricing {
+  font-weight: 800;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 6px;
 }
