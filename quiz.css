@@ -1,0 +1,12 @@
+.row_top {
+  display: flex;
+}
+
+.row_bottom {
+  display: flex;
+}
+
+.product_card {
+  width: 30%;
+  margin: 0 auto;
+}
