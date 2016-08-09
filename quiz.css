@@ -2,11 +2,7 @@
     FLEX
 *************/
 
-.row_top {
-  display: flex;
-}
-
-.row_bottom {
+.row {
   display: flex;
 }
 
